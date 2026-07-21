@@ -25,7 +25,7 @@ export function Newsletter() {
             Get new articles in your inbox
           </h3>
           <p className="mx-auto mt-2 max-w-sm text-sm text-muted">
-            One email a month, no spam — just what we're learning from
+            One email a month, no spam — just what we&apos;re learning from
             building software.
           </p>
 

@@ -34,7 +34,7 @@ export function CareersHero() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="mx-auto mt-6 max-w-xl text-lg text-muted"
         >
-          We're a small, senior, fully remote team that cares deeply about
+          We&apos;re a small, senior, fully remote team that cares deeply about
           craft. If that sounds like you, we'd love to talk.
         </motion.p>
         <motion.div

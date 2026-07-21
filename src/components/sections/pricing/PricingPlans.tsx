@@ -165,7 +165,7 @@ export function PricingPlans() {
 
       <Section className="bg-card dark:bg-white/[0.015]">
         <Container>
-          <SectionHeading eyebrow="Compare plans" title="What's included" />
+          <SectionHeading eyebrow="Compare plans" title="What&apos;s included" />
           <div className="mt-14 overflow-x-auto rounded-2xl border border-border-subtle dark:border-white/10">
             <table className="w-full min-w-[560px] border-collapse text-left text-sm">
               <thead>

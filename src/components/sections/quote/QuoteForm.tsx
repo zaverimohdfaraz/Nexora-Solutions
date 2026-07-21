@@ -147,7 +147,7 @@ export function QuoteForm() {
             <textarea
               name="requirements"
               rows={5}
-              placeholder="Tell us what you're building, key features, and any technical constraints..."
+              placeholder="Tell us what you&apos;re building, key features, and any technical constraints..."
               className="w-full resize-none rounded-xl border border-border-subtle bg-white px-4 py-3 text-sm outline-none transition-colors focus:border-primary dark:border-white/10 dark:bg-white/[0.03]"
             />
             {errors.requirements && (

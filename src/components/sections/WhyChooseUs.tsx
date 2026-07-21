@@ -9,7 +9,7 @@ const REASONS = [
   {
     icon: Rocket,
     title: "Ship faster",
-    desc: "Lean, senior teams and a proven process mean you're live in weeks, not quarters.",
+    desc: "Lean, senior teams and a proven process mean you&apos;re live in weeks, not quarters.",
   },
   {
     icon: ShieldCheck,

@@ -29,7 +29,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     title: "Practical AI features that ship in weeks, not quarters",
     excerpt:
-      "You don't need a research team to add meaningful AI features. Here's the scoped, iterative approach we use with clients.",
+      "You don't need a research team to add meaningful AI features. Here&apos;s the scoped, iterative approach we use with clients.",
     category: "AI",
     date: "May 8, 2026",
     readTime: "7 min read",
@@ -38,7 +38,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     title: "The real cost of skipping a discovery phase",
     excerpt:
-      "Projects that skip discovery ship faster in week one and slower in every week after. Here's what discovery actually buys you.",
+      "Projects that skip discovery ship faster in week one and slower in every week after. Here&apos;s what discovery actually buys you.",
     category: "Product",
     date: "April 24, 2026",
     readTime: "4 min read",
@@ -56,7 +56,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     title: "What makes a design system actually get used",
     excerpt:
-      "Most design systems get built once and ignored within a year. Here's what keeps engineering and design actually using one.",
+      "Most design systems get built once and ignored within a year. Here&apos;s what keeps engineering and design actually using one.",
     category: "Design",
     date: "March 29, 2026",
     readTime: "5 min read",

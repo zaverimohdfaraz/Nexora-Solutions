@@ -22,7 +22,7 @@ export const PROJECTS: Project[] = [
     metric: "+64% activation",
     gradient: "from-primary/30 via-primary/10 to-transparent",
     challenge:
-      "Fluxwave's onboarding flow lost most new users before they reached their first meaningful action inside the product.",
+      "Fluxwave&apos;s onboarding flow lost most new users before they reached their first meaningful action inside the product.",
     solution:
       "We redesigned onboarding around a single guided setup path, rebuilt the dashboard in Next.js, and added real-time data visualizations.",
     result:
@@ -54,7 +54,7 @@ export const PROJECTS: Project[] = [
     metric: "40hrs saved / week",
     gradient: "from-secondary/30 via-secondary/10 to-transparent",
     challenge:
-      "Vertexa's operations team spent dozens of hours weekly manually triaging and routing customer requests.",
+      "Vertexa&apos;s operations team spent dozens of hours weekly manually triaging and routing customer requests.",
     solution:
       "We built an AI-powered triage system using an LLM pipeline that classifies, prioritizes, and routes requests automatically.",
     result:
@@ -70,7 +70,7 @@ export const PROJECTS: Project[] = [
     metric: "+48% lead quality",
     gradient: "from-primary/25 via-accent/10 to-transparent",
     challenge:
-      "Northpeak's property listings site generated traffic but poor-quality leads with no way to filter serious buyers.",
+      "Northpeak&apos;s property listings site generated traffic but poor-quality leads with no way to filter serious buyers.",
     solution:
       "We designed a new listings experience with smart filtering, saved searches, and a qualification flow before agents were contacted.",
     result:
@@ -102,7 +102,7 @@ export const PROJECTS: Project[] = [
     metric: "3x faster onboarding",
     gradient: "from-primary/30 via-accent/15 to-transparent",
     challenge:
-      "Ionsphere's B2B platform required manual setup calls for every new enterprise customer, slowing sales cycles.",
+      "Ionsphere&apos;s B2B platform required manual setup calls for every new enterprise customer, slowing sales cycles.",
     solution:
       "We built a self-serve onboarding wizard with role-based provisioning and automated data migration tooling.",
     result:

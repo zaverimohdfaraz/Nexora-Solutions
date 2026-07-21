@@ -22,7 +22,7 @@ const TESTIMONIALS = [
   },
   {
     quote:
-      "We went from a rough idea to a production AI feature in six weeks. Nexora's process removed every bit of ambiguity along the way.",
+      "We went from a rough idea to a production AI feature in six weeks. Nexora&apos;s process removed every bit of ambiguity along the way.",
     name: "Amara Chen",
     role: "Founder, Vertexa",
     initials: "AC",
