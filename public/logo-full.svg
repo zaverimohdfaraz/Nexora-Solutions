@@ -1,0 +1,25 @@
+<svg width="320" height="360" viewBox="0 0 320 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Nexora — Connect. Code. Create.">
+  <defs>
+    <linearGradient id="fullGrad" x1="110" y1="60" x2="210" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Node-network N mark -->
+  <path d="M120 60V180M200 60V180M120 60L200 180" stroke="url(#fullGrad)" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="120" cy="60" r="10" fill="url(#fullGrad)"/>
+  <circle cx="200" cy="60" r="10" fill="url(#fullGrad)"/>
+  <circle cx="120" cy="180" r="10" fill="url(#fullGrad)"/>
+  <circle cx="200" cy="180" r="10" fill="url(#fullGrad)"/>
+
+  <!-- Wordmark -->
+  <text x="160" y="248" text-anchor="middle" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="700" font-size="40" letter-spacing="8" fill="currentColor">
+    NEXORA
+  </text>
+
+  <!-- Tagline -->
+  <text x="160" y="278" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="500" font-size="13" letter-spacing="4" fill="currentColor" fill-opacity="0.55">
+    CONNECT. CODE. CREATE.
+  </text>
+</svg>
