@@ -16,72 +16,31 @@ export function Logo({
       aria-label="Nexora Solutions — Home"
       className={cn("group inline-flex items-center gap-3", className)}
     >
-      {/* Light Mode Logo */}
       <svg
         width="38"
         height="38"
         viewBox="0 0 40 40"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="shrink-0 dark:hidden"
+        className="shrink-0 text-black dark:text-[#2563EB]"
       >
+        {/* N Logo */}
         <path
           d="M11.5 11.5V28.5M28.5 11.5V28.5M11.5 11.5L28.5 28.5"
-          stroke="#000000"
+          stroke="currentColor"
           strokeWidth="2"
           strokeLinecap="round"
         />
 
-        <circle cx="11.5" cy="11.5" r="2.4" fill="#000000" />
-        <circle cx="28.5" cy="11.5" r="2.4" fill="#000000" />
-        <circle cx="11.5" cy="28.5" r="2.4" fill="#000000" />
+        <circle cx="11.5" cy="11.5" r="2.4" fill="currentColor" />
+        <circle cx="28.5" cy="11.5" r="2.4" fill="currentColor" />
+        <circle cx="11.5" cy="28.5" r="2.4" fill="currentColor" />
+
         <circle
           cx="28.5"
           cy="28.5"
           r="2.4"
-          fill="#000000"
-          className="origin-center transition-transform duration-300 group-hover:scale-125"
-        />
-      </svg>
-
-      {/* Dark Mode Logo */}
-      <svg
-        width="38"
-        height="38"
-        viewBox="0 0 40 40"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        className="hidden shrink-0 dark:block"
-      >
-        <defs>
-          <linearGradient
-            id="navGrad"
-            x1="10"
-            y1="10"
-            x2="30"
-            y2="30"
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop offset="0" stopColor="#2563EB" />
-            <stop offset="1" stopColor="#06B6D4" />
-          </linearGradient>
-        </defs>
-
-        <path
-          d="M11.5 11.5V28.5M28.5 11.5V28.5M11.5 11.5L28.5 28.5"
-          stroke="url(#navGrad)"
-          strokeWidth="2"
-          strokeLinecap="round"
-        />
-
-        <circle cx="11.5" cy="11.5" r="2.4" fill="url(#navGrad)" />
-        <circle cx="28.5" cy="11.5" r="2.4" fill="url(#navGrad)" />
-        <circle cx="11.5" cy="28.5" r="2.4" fill="url(#navGrad)" />
-        <circle
-          cx="28.5"
-          cy="28.5"
-          r="2.4"
-          fill="url(#navGrad)"
+          fill="currentColor"
           className="origin-center transition-transform duration-300 group-hover:scale-125"
         />
       </svg>

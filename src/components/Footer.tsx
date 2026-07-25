@@ -126,10 +126,10 @@ export function Footer() {
 
         <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-border-subtle pt-8 text-sm text-muted dark:border-white/10 sm:flex-row">
           <p>© {new Date().getFullYear()} Nexora Solutions. All rights reserved.</p>
-          <p className="flex items-center gap-2">
+          {/* <p className="flex items-center gap-2">
             <span className="h-2 w-2 animate-pulse rounded-full bg-success" />
             All systems operational
-          </p>
+          </p> */}
         </div>
       </Container>
     </footer>

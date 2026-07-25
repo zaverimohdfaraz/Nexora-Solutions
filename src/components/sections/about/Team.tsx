@@ -6,14 +6,14 @@ import { Section, Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 
 const TEAM = [
-  { name: "Elena Marsh", role: "Founder & CEO", initials: "EM" },
-  { name: "Rohan Kapoor", role: "Head of Engineering", initials: "RK" },
-  { name: "Sofia Lindgren", role: "Head of Design", initials: "SL" },
-  { name: "Marcus Webb", role: "Lead Backend Engineer", initials: "MW" },
-  { name: "Aiko Tanaka", role: "Product Strategist", initials: "AT" },
-  { name: "Jonas Weber", role: "DevOps Lead", initials: "JW" },
-  { name: "Isabella Cruz", role: "Senior Frontend Engineer", initials: "IC" },
-  { name: "Tariq Osman", role: "AI Engineer", initials: "TO" },
+  { name: "Muddasir Shaikh", role: "Founder & CEO", initials: "MS" },
+  { name: "Sahil Shaikh", role: "Co-founder & COO", initials: "SS" },
+  { name: "Faraz Zaveri", role: "Co-founder & CTO", initials: "FZ" },
+  // { name: "Marcus Webb", role: "Lead Backend Engineer", initials: "MW" },
+  // { name: "Aiko Tanaka", role: "Product Strategist", initials: "AT" },
+  // { name: "Jonas Weber", role: "DevOps Lead", initials: "JW" },
+  // { name: "Isabella Cruz", role: "Senior Frontend Engineer", initials: "IC" },
+  // { name: "Tariq Osman", role: "AI Engineer", initials: "TO" },
 ];
 
 export function Team() {
@@ -23,10 +23,10 @@ export function Team() {
         <SectionHeading
           eyebrow="Meet the team"
           title="The people behind the pixels"
-          description="A distributed team of senior engineers, designers, and strategists."
+          description="A distributed team of founders."
         />
 
-        <div className="mt-16 grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-4">
+        <div className="mt-16 mx-auto grid max-w-5xl grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {TEAM.map((member, i) => (
             <motion.div
               key={member.name}

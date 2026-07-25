@@ -10,7 +10,7 @@ import { cn } from "@/lib/utils";
 const PLANS = [
   {
     name: "Starter",
-    price: "$4,900",
+    price: "$1,499",
     unit: "one-time",
     desc: "For a focused launch — a single landing page or small marketing site.",
     features: ["Up to 5 pages", "Responsive design", "Basic SEO setup", "2 weeks delivery", "30-day support"],
@@ -18,7 +18,7 @@ const PLANS = [
   },
   {
     name: "Professional",
-    price: "$14,900",
+    price: "$4,900",
     unit: "starting at",
     desc: "For a full product build — custom web app or e-commerce store.",
     features: [
