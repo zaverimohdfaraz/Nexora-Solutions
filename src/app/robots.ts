@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://nexorasolutions.com/sitemap.xml",
+    sitemap: "https://nexorasoln.com/sitemap.xml",
   };
 }

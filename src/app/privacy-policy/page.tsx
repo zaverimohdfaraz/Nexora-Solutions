@@ -70,8 +70,8 @@ export default function PrivacyPolicyPage() {
           Depending on your location, you may have the right to access,
           correct, or delete your personal information, or to object to
           certain processing. To exercise these rights, contact us at{" "}
-          <a href="mailto:privacy@nexorasolutions.com" className="font-medium text-primary hover:underline">
-            privacy@nexorasolutions.com
+          <a href="mailto:privacy@nexorasoln.com" className="font-medium text-primary hover:underline">
+            privacy@nexorasoln.com
           </a>
           .
         </p>
@@ -87,8 +87,8 @@ export default function PrivacyPolicyPage() {
       <LegalSection title="8. Contact us">
         <p>
           If you have questions about this policy, reach out at{" "}
-          <a href="mailto:privacy@nexorasolutions.com" className="font-medium text-primary hover:underline">
-            privacy@nexorasolutions.com
+          <a href="mailto:privacy@nexorasoln.com" className="font-medium text-primary hover:underline">
+            privacy@nexorasoln.com
           </a>
           .
         </p>

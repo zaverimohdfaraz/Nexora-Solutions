@@ -66,8 +66,8 @@ export default function CookiesPage() {
       <LegalSection title="6. Contact">
         <p>
           Questions about our use of cookies can be sent to{" "}
-          <a href="mailto:privacy@nexorasolutions.com" className="font-medium text-primary hover:underline">
-            privacy@nexorasolutions.com
+          <a href="mailto:privacy@nexorasoln.com" className="font-medium text-primary hover:underline">
+            privacy@nexorasoln.com
           </a>
           .
         </p>

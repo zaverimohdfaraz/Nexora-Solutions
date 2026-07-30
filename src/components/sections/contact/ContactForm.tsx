@@ -10,7 +10,7 @@ import { Section, Container } from "@/components/ui/Container";
 type Status = "idle" | "loading" | "success" | "error";
 
 const CONTACT_INFO = [
-  { icon: Mail, label: "Email", value: "hello@nexorasolutions.com" },
+  { icon: Mail, label: "Email", value: "hello@nexorasoln.com" },
   { icon: Phone, label: "Phone", value: "+1 (555) 010-0000" },
   { icon: MapPin, label: "Office", value: "148 Market Street, San Francisco, CA" },
   { icon: Clock, label: "Business Hours", value: "Mon–Fri, 9:00 AM – 6:00 PM PST" },

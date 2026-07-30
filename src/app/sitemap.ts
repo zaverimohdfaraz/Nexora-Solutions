@@ -18,7 +18,7 @@ const routes = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://nexorasolutions.com";
+  const base = "https://nexorasoln.com";
 
   return routes.map((route) => ({
     url: route ? `${base}/${route}/` : `${base}/`,

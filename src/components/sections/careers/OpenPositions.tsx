@@ -44,7 +44,7 @@ export function OpenPositions() {
               <motion.a
                 key={role.title}
                 layout
-                href={`mailto:careers@nexorasolutions.com?subject=Application: ${encodeURIComponent(role.title)}`}
+                href={`mailto:careers@nexorasoln.com?subject=Application: ${encodeURIComponent(role.title)}`}
                 initial={{ opacity: 0, y: 16 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, scale: 0.97 }}

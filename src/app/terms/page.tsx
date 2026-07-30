@@ -87,8 +87,8 @@ export default function TermsPage() {
       <LegalSection title="9. Contact">
         <p>
           Questions about these Terms can be sent to{" "}
-          <a href="mailto:legal@nexorasolutions.com" className="font-medium text-primary hover:underline">
-            legal@nexorasolutions.com
+          <a href="mailto:legal@nexorasoln.com" className="font-medium text-primary hover:underline">
+            legal@nexorasoln.com
           </a>
           .
         </p>
