@@ -12,6 +12,7 @@ const TESTIMONIALS = [
     name: "Priya Nair",
     role: "VP Product, Fluxwave",
     initials: "PN",
+    color: "from-primary to-cyan-400",
   },
   {
     quote:
@@ -19,13 +20,15 @@ const TESTIMONIALS = [
     name: "Daniel Ostrowski",
     role: "CTO, Cedarline",
     initials: "DO",
+    color: "from-brand-violet to-brand-magenta",
   },
   {
     quote:
-      "We went from a rough idea to a production AI feature in six weeks. Nexora&apos;s process removed every bit of ambiguity along the way.",
+      "We went from a rough idea to a production AI feature in six weeks. Nexora's process removed every bit of ambiguity along the way.",
     name: "Amara Chen",
     role: "Founder, Vertexa",
     initials: "AC",
+    color: "from-amber-500 to-brand-magenta",
   },
 ];
 
@@ -48,7 +51,7 @@ export function Testimonials() {
               transition={{ duration: 0.55, delay: i * 0.1 }}
               className="glass-card flex flex-col gap-5 rounded-2xl p-8 shadow-soft"
             >
-              <div className="flex gap-1 text-accent">
+              <div className="flex gap-1 text-amber-500">
                 {Array.from({ length: 5 }).map((_, idx) => (
                   <Star key={idx} className="h-4 w-4 fill-current" />
                 ))}
@@ -57,7 +60,7 @@ export function Testimonials() {
                 “{t.quote}”
               </p>
               <div className="mt-auto flex items-center gap-3 pt-2">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-brand text-xs font-bold text-white">
+                <div className={`flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br ${t.color} text-xs font-bold text-white`}>
                   {t.initials}
                 </div>
                 <div>

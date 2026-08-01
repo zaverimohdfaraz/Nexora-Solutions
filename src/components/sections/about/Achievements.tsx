@@ -6,10 +6,10 @@ import { Section, Container } from "@/components/ui/Container";
 import { Counter } from "@/components/ui/Counter";
 
 const ACHIEVEMENTS = [
-  { icon: Award, value: 12, suffix: "", label: "Industry awards" },
-  { icon: Globe2, value: 20, suffix: "+", label: "Countries served" },
-  { icon: Users2, value: 45, suffix: "", label: "Team members" },
-  { icon: Sparkles, value: 500, suffix: "+", label: "Projects delivered" },
+  { icon: Award, value: 12, suffix: "", label: "Industry awards", color: "text-amber-500" },
+  { icon: Globe2, value: 20, suffix: "+", label: "Countries served", color: "text-cyan-500" },
+  { icon: Users2, value: 45, suffix: "", label: "Team members", color: "text-brand-violet" },
+  { icon: Sparkles, value: 500, suffix: "+", label: "Projects delivered", color: "text-brand-magenta" },
 ];
 
 export function Achievements() {
@@ -26,7 +26,7 @@ export function Achievements() {
               transition={{ duration: 0.5, delay: i * 0.1 }}
               className="flex flex-col items-center gap-3 rounded-2xl border border-border-subtle bg-card p-8 text-center shadow-card dark:border-white/10 dark:bg-white/[0.02]"
             >
-              <item.icon className="h-6 w-6 text-primary" />
+              <item.icon className={`h-6 w-6 ${item.color}`} />
               <p className="text-3xl font-bold text-ink dark:text-white">
                 <Counter value={item.value} suffix={item.suffix} />
               </p>

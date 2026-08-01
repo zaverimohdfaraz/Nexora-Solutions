@@ -16,6 +16,8 @@ const config: Config = {
         },
         secondary: "#1E40AF",
         accent: "#06B6D4",
+        "brand-violet": "#7C3AED",
+        "brand-magenta": "#DB2777",
         success: "#10B981",
         ink: "#111827",
         muted: "#6B7280",
@@ -36,11 +38,14 @@ const config: Config = {
           "linear-gradient(to right, rgba(255,255,255,0.05) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.05) 1px, transparent 1px)",
         "gradient-brand": "linear-gradient(135deg, #2563EB 0%, #06B6D4 100%)",
         "gradient-brand-soft":
-          "linear-gradient(135deg, rgba(37,99,235,0.12) 0%, rgba(6,182,212,0.12) 100%)",
+          "linear-gradient(135deg, rgba(37,99,235,0.14) 0%, rgba(124,58,237,0.14) 55%, rgba(219,39,119,0.14) 100%)",
+        "gradient-mesh":
+          "radial-gradient(at 15% 20%, rgba(37,99,235,0.25) 0px, transparent 55%), radial-gradient(at 85% 15%, rgba(124,58,237,0.22) 0px, transparent 55%), radial-gradient(at 50% 85%, rgba(219,39,119,0.18) 0px, transparent 55%), radial-gradient(at 90% 80%, rgba(6,182,212,0.18) 0px, transparent 55%)",
       },
       boxShadow: {
-        glow: "0 0 40px rgba(37, 99, 235, 0.25)",
+        glow: "0 0 40px rgba(124, 58, 237, 0.25)",
         "glow-cyan": "0 0 40px rgba(6, 182, 212, 0.25)",
+        "glow-pink": "0 0 40px rgba(219, 39, 119, 0.25)",
         soft: "0 8px 30px rgba(17, 24, 39, 0.06)",
         card: "0 1px 2px rgba(17,24,39,0.04), 0 12px 32px -12px rgba(17,24,39,0.12)",
       },

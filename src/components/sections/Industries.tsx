@@ -6,12 +6,12 @@ import { Section, Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 
 const INDUSTRIES = [
-  { icon: Landmark, label: "Fintech" },
-  { icon: HeartPulse, label: "Healthcare" },
-  { icon: ShoppingBag, label: "E-commerce" },
-  { icon: GraduationCap, label: "EdTech" },
-  { icon: Building2, label: "Real Estate" },
-  { icon: Plane, label: "Travel" },
+  { icon: Landmark, label: "Fintech", color: "text-primary" },
+  { icon: HeartPulse, label: "Healthcare", color: "text-brand-magenta" },
+  { icon: ShoppingBag, label: "E-commerce", color: "text-amber-500" },
+  { icon: GraduationCap, label: "EdTech", color: "text-brand-violet" },
+  { icon: Building2, label: "Real Estate", color: "text-emerald-500" },
+  { icon: Plane, label: "Travel", color: "text-cyan-500" },
 ];
 
 export function Industries() {
@@ -33,7 +33,7 @@ export function Industries() {
               whileHover={{ y: -4 }}
               className="flex flex-col items-center gap-3 rounded-2xl border border-border-subtle bg-white px-4 py-8 text-center transition-colors hover:border-primary/30 dark:border-white/10 dark:bg-white/[0.03]"
             >
-              <item.icon className="h-6 w-6 text-primary" />
+              <item.icon className={`h-6 w-6 ${item.color}`} />
               <span className="text-sm font-medium text-ink dark:text-white">
                 {item.label}
               </span>

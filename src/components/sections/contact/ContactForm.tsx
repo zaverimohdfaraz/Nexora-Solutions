@@ -10,10 +10,10 @@ import { Section, Container } from "@/components/ui/Container";
 type Status = "idle" | "loading" | "success" | "error";
 
 const CONTACT_INFO = [
-  { icon: Mail, label: "Email", value: "hello@nexorasoln.com" },
-  { icon: Phone, label: "Phone", value: "+1 (555) 010-0000" },
-  { icon: MapPin, label: "Office", value: "148 Market Street, San Francisco, CA" },
-  { icon: Clock, label: "Business Hours", value: "Mon–Fri, 9:00 AM – 6:00 PM PST" },
+  { icon: Mail, label: "Email", value: "contact@nexorasoln.com" },
+  { icon: Phone, label: "Phone", value: "+91 8928173115" },
+  { icon: MapPin, label: "Office", value: "Office No. 3, 1st Floor, Kavarana Bldg, Opposite Metro Theater, Mumbai 400002" },
+  { icon: Clock, label: "Business Hours", value: "Mon–Fri, 9:00 AM – 6:00 PM IST" },
 ];
 
 export function ContactForm() {
@@ -148,7 +148,7 @@ export function ContactForm() {
               ))}
             </div>
 
-            <div className="relative flex h-64 items-center justify-center overflow-hidden rounded-2xl border border-border-subtle bg-card dark:border-white/10 dark:bg-white/[0.02]">
+            {/* <div className="relative flex h-64 items-center justify-center overflow-hidden rounded-2xl border border-border-subtle bg-card dark:border-white/10 dark:bg-white/[0.02]">
               <div className="bg-grid-light dark:bg-grid-dark absolute inset-0 opacity-70" />
               <div className="relative flex flex-col items-center gap-2 text-center">
                 <MapPin className="h-8 w-8 text-primary" />
@@ -157,7 +157,7 @@ export function ContactForm() {
                 </p>
                 <p className="text-xs text-muted">Map preview — connect Google Maps API</p>
               </div>
-            </div>
+            </div> */}
           </motion.div>
         </div>
       </Container>

@@ -9,22 +9,26 @@ const REASONS = [
   {
     icon: Rocket,
     title: "Ship faster",
-    desc: "Lean, senior teams and a proven process mean you&apos;re live in weeks, not quarters.",
+    desc: "Lean, senior teams and a proven process mean you're live in weeks, not quarters.",
+    color: "text-primary bg-primary/10",
   },
   {
     icon: ShieldCheck,
     title: "Built to last",
     desc: "Clean architecture, test coverage, and documentation — no shortcuts, no tech debt.",
+    color: "text-brand-violet bg-brand-violet/10",
   },
   {
     icon: Users,
     title: "Real partnership",
     desc: "A dedicated team that speaks your language, not a rotating cast of contractors.",
+    color: "text-brand-magenta bg-brand-magenta/10",
   },
   {
     icon: LineChart,
     title: "Outcomes over output",
     desc: "We measure success in the metrics that move your business, not lines of code.",
+    color: "text-amber-500 bg-amber-500/10",
   },
 ];
 
@@ -51,7 +55,7 @@ export function WhyChooseUs() {
                   transition={{ duration: 0.5, delay: i * 0.08 }}
                   className="flex flex-col gap-3"
                 >
-                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
+                  <div className={`flex h-10 w-10 items-center justify-center rounded-lg ${reason.color}`}>
                     <reason.icon className="h-5 w-5" />
                   </div>
                   <h3 className="text-base font-semibold text-ink dark:text-white">

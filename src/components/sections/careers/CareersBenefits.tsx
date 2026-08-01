@@ -6,12 +6,12 @@ import { Section, Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 
 const BENEFITS = [
-  { icon: Globe2, title: "Fully remote", desc: "Work from anywhere — we've always been distributed." },
-  { icon: HeartPulse, title: "Health coverage", desc: "Comprehensive medical, dental, and vision plans." },
-  { icon: CalendarClock, title: "Flexible hours", desc: "Async-friendly culture built around outcomes, not hours online." },
-  { icon: Laptop, title: "Home office budget", desc: "A stipend to set up a workspace that works for you." },
-  { icon: GraduationCap, title: "Learning budget", desc: "Annual budget for courses, conferences, and books." },
-  { icon: Coffee, title: "Unlimited PTO", desc: "Take the time you need to do your best work." },
+  { icon: Globe2, title: "Fully remote", desc: "Work from anywhere — we've always been distributed.", color: "text-primary bg-primary/10" },
+  { icon: HeartPulse, title: "Health coverage", desc: "Comprehensive medical, dental, and vision plans.", color: "text-brand-magenta bg-brand-magenta/10" },
+  { icon: CalendarClock, title: "Flexible hours", desc: "Async-friendly culture built around outcomes, not hours online.", color: "text-brand-violet bg-brand-violet/10" },
+  { icon: Laptop, title: "Home office budget", desc: "A stipend to set up a workspace that works for you.", color: "text-cyan-500 bg-cyan-500/10" },
+  { icon: GraduationCap, title: "Learning budget", desc: "Annual budget for courses, conferences, and books.", color: "text-amber-500 bg-amber-500/10" },
+  { icon: Coffee, title: "Unlimited PTO", desc: "Take the time you need to do your best work.", color: "text-emerald-500 bg-emerald-500/10" },
 ];
 
 export function CareersBenefits() {
@@ -29,7 +29,7 @@ export function CareersBenefits() {
               transition={{ duration: 0.5, delay: i * 0.08 }}
               className="rounded-2xl border border-border-subtle bg-white p-7 shadow-card dark:border-white/10 dark:bg-white/[0.03]"
             >
-              <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary/10 text-primary">
+              <div className={`flex h-11 w-11 items-center justify-center rounded-xl ${b.color}`}>
                 <b.icon className="h-5 w-5" />
               </div>
               <h3 className="mt-5 text-base font-semibold text-ink dark:text-white">

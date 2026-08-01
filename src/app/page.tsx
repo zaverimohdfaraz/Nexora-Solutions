@@ -11,14 +11,20 @@ import { Statistics } from "@/components/sections/Statistics";
 import { FAQ } from "@/components/sections/FAQ";
 import { CTA } from "@/components/sections/CTA";
 
+import { HeroShowcase } from "@/components/sections/HeroShowcase";
+import { WorkShowcase } from "@/components/sections/WorkShowcase";
+
 export default function Home() {
   return (
     <>
       <Hero />
+{/* <HeroShowcase /> */}
+       {/* <WorkShowcase /> */}
+      
       <LogoMarquee />
-      <ServicesOverview />
+      {/* <ServicesOverview /> */}
       <WhyChooseUs />
-      <TechStack />
+      {/* <TechStack /> */}
       <FeaturedProjects />
       <Industries />
       <Process />

@@ -5,7 +5,7 @@ import { Container } from "@/components/ui/Container";
 
 export function ServicesHero() {
   return (
-    <section className="relative overflow-hidden pb-16 pt-20 lg:pb-24 lg:pt-28">
+    <section className="relative overflow-hidden pb-16 pt-4 lg:pb-24 lg:pt-8">
       <div className="absolute inset-0 -z-10">
         <div className="bg-grid-light dark:bg-grid-dark absolute inset-0 [mask-image:radial-gradient(ellipse_60%_60%_at_50%_0%,black,transparent)]" />
         <div className="absolute left-1/2 top-[-20%] h-[420px] w-[420px] -translate-x-1/2 rounded-full bg-primary/15 blur-[120px]" />
