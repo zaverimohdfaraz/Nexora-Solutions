@@ -235,14 +235,14 @@ export function Hero() {
                 </div>
 
                 {/* Title + description, above the dots */}
-                <div className="pointer-events-none absolute inset-x-0 bottom-16 px-6 text-center">
+                {/* <div className="pointer-events-none absolute inset-x-0 bottom-16 px-6 text-center">
                   <h3 className="text-2xl font-bold leading-tight text-white">
                     {current.name}
                   </h3>
                   <p className="mt-2 text-sm leading-relaxed text-white/70">
                     {current.desc}
                   </p>
-                </div>
+                </div> */}
 
                 {/* Dot navigation, over the image */}
                 <div className="absolute inset-x-0 bottom-[max(1.5rem,env(safe-area-inset-bottom))] z-30 flex justify-center gap-1.5">
